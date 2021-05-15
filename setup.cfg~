@@ -16,7 +16,8 @@ classifiers =
     Operating System :: OS Independent
 
 [options]
-package_dir = pkg
+package_dir =
+    = pkg
 packages = find:
 python_requires = >=3.6
 
